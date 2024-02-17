@@ -57,5 +57,3 @@ def result():
             reviews.append(data)
     return render_template("results.html",reviews=reviews[0:(len(reviews)-1)])
     
-if __name__=="__main__":
-    app.run(host="0.0.0.0")
